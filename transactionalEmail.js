@@ -1,7 +1,6 @@
-// inject the redirect url via a hidden
-// form field and have it submitted
+// inject the redirect url via a hidden form field
 function injectRedirectUrl(url) {
-var input = document.createElement("input");
+	let input = document.createElement("input");
 	input.setAttribute("type", "hidden");
 	input.setAttribute("name", "redirect-url");
 	input.setAttribute("value", url);
@@ -11,15 +10,14 @@ var input = document.createElement("input");
 // triggered form submit 
 function captureSubmit(event) {
 
-// Get current form button waiting text
-let waitMessage = event.target.submitButton.getAttribute('data-wait');
+	// Get current form button waiting text
+	let waitMessage = event.target.submitButton.getAttribute('data-wait');
 
-// Show waiting text
-event.target.submitButton.value = waitMessage;
+	// Show waiting text
+	event.target.submitButton.value = waitMessage;
 
-// Disable the form button
-event.target.submitButton.disabled = true;
-
+	// Disable the form button
+	event.target.submitButton.disabled = true;
 }
 
 // replace with your form ID
