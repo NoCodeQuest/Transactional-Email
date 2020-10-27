@@ -11,7 +11,7 @@ var input = document.createElement("input");
 // triggered form submit 
 function captureSubmit(event) {
 
-	// Get current form button waiting text
+// Get current form button waiting text
 let waitMessage = event.target.submitButton.getAttribute('data-wait');
 
 // Show waiting text
