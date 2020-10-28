@@ -1,4 +1,6 @@
-# Transactional-Email
+# Custom Code for the Webflow Transactional Email screencast
 
-Created this for my own needs. Find more at [NoCodeQuest.com](NoCodeQuest.com)
+* Find this screencast at [Webflow Transaction Emails](https://NoCodeQuest.com/webflow-transactional-emails)
+* Find more screencasts at [NoCodeQuest.com](https://NoCodeQuest.com)
+
 
